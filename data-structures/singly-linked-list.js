@@ -130,4 +130,4 @@ List.prototype.findFirst = function(valueToFind) {
 	return node;
 };
 
-return List;
+module.exports = List;
