@@ -47,4 +47,4 @@ function calc(expr) {
 	return stack[0];
 }
 
-return calc;
+module.exports = calc;
