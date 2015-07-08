@@ -107,7 +107,12 @@ cache.set(2, 'two')
 cache.set(3, 'three')
 cache.set(4, 'four')
 
+
 console.log(cache.get(1))
 console.log(cache.get(2))
 console.log(cache.get(3))
+console.log(cache.get(4))
+
+cache.delete(4)
+
 console.log(cache.get(4))
